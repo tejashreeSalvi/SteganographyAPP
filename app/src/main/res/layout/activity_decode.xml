@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tejashree.stegoimage.Decode">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="350dp"
+        android:layout_height="390dp"
+        android:layout_above="@+id/bgallery"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:id="@+id/bgallery"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="23dp"
+        android:layout_marginStart="26dp"
+        android:background="@drawable/custom_button"
+        android:fadingEdge="vertical"
+        android:fontFamily="sans-serif-condensed"
+        android:text="STEGO_IMAGE"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="26dp" />
+
+    <Button
+        android:id="@+id/bdecode"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bgallery"
+        android:layout_alignBottom="@+id/bgallery"
+        android:layout_alignEnd="@+id/img"
+        android:layout_alignRight="@+id/img"
+        android:background="@drawable/custom_button"
+        android:fadingEdge="vertical"
+        android:fontFamily="sans-serif-condensed"
+        android:text="DECODE"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

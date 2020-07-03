@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Qrcode">
+
+    <ImageView
+        android:id="@+id/QrcodeView"
+        android:layout_width="371dp"
+        android:layout_height="205dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="45dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <EditText
+        android:id="@+id/qrcodeText"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_below="@+id/QrcodeView"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="83dp"
+        android:textAlignment="center"
+        android:ems="10"
+        android:hint="Enter Youtube Link"
+        android:inputType="textPersonName"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/qrcodebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/qrcodeText"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="65dp"
+        android:background="@drawable/custom_button"
+        android:padding="10dp"
+        android:text="Generate Qrcode"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/qrcodesave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/qrcodeText"
+        android:layout_marginStart="58dp"
+        android:layout_marginLeft="204dp"
+        android:layout_marginTop="69dp"
+        android:layout_toEndOf="@+id/qrcodebutton"
+        android:background="@drawable/custom_button"
+        android:padding="10dp"
+        android:text="Save Qrcode"
+        android:textColor="#FFFF"
+        android:layout_toRightOf="@+id/qrcodebutton" />
+
+</RelativeLayout>

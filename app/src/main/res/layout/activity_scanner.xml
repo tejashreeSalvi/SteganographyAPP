@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Scanner">
+
+    <Button
+        android:id="@+id/btn_scan_qrcode"
+        android:layout_width="218dp"
+        android:layout_height="74dp"
+        android:text="Select/Scan Image"
+        android:layout_centerInParent="true"
+        android:background="@drawable/custom_button"
+        android:textColor="#FFFF"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="311dp"
+        tools:ignore="MissingConstraints" />
+
+</RelativeLayout>

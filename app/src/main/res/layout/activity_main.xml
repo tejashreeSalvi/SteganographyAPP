@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tejashree.stegoimage.MainActivity">
+
+    <Button
+        android:id="@+id/bencode"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="23dp"
+        android:layout_marginStart="26dp"
+        android:background="@drawable/custom_button"
+        android:fadingEdge="vertical"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Encode"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="26dp" />
+
+    <Button
+        android:id="@+id/bdecode"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bencode"
+        android:layout_alignBottom="@+id/bencode"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="19dp"
+        android:background="@drawable/custom_button"
+        android:fadingEdge="vertical"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Decode"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="19dp" />
+
+</RelativeLayout>
